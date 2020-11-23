@@ -1,0 +1,272 @@
+html {
+  font-size: 62.2%;
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+
+body,
+input,
+select,
+button,
+option,
+textarea {
+  font-size: 1.6rem;
+  font-family: fantasy;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}
+
+header {
+  grid-area: header;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: xx-large;
+}
+
+a:hover {
+  color: brown;
+}
+
+.title {
+  font-size: x-large;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS Produits-Panier */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 3 60rem;
+}
+
+.sidebar {
+  flex: 1 20rem;
+}
+
+/* CSS Produits */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.products li {
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product img {
+  width: 31rem;
+  height: 31rem;
+}
+
+.prix-produit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prix-produit div,
+.prix-produit button {
+  text-align: center;
+  flex: 1;
+}
+
+.prix-produit div {
+  font-size: 1.8rem;
+}
+
+button {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 0.1rem #808080 solid;
+}
+
+button.primary {
+  background-color: gold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CSS filter */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
+}
+
+/* CSS panier */
+
+.panier {
+  margin: 1rem;
+  padding: 1.15rem;
+  display: flex;
+}
+
+.panier-header {
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.panier-carte {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.panier-carte img {
+  width: 8rem;
+  height: 7rem;
+}
+
+.panier-carte li {
+  display: flex;
+}
+
+.panier-carte li div {
+  padding: 0.5rem;
+}
+
+.panier-carte li div :last-child {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+
+.total {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+.total > div {
+  font-size: 1.7rem;
+}
+
+.total > div,
+.total > button {
+  flex: 1;
+}
+
+/* Client form CSS */
+
+form {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+input {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+}
+
+/* Modal CSS */
+
+.produit-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.produit-description img {
+  max-width: 34rem;
+  max-height: 41rem;
+}
+
+.titre-modal{
+  font-size: x-large;
+  font-weight: bolder;
+  color: blue;
+}
+
+.produit-description-detail {
+  flex: 1 1;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  z-index: 1000;
+  width: 4rem;
+}

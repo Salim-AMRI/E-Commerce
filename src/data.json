@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "_id": "1",
+      "titre": "Horloge murale",
+      "type": "Decoration",
+      "etat": "Ancienne",
+      "photo": "https://www.jardins-dhiver.com/4201-thickbox_default/horloge-murale-cafe-du-parc-24-cm.jpg",
+      "description": "L' horloge café du Parc au style rétro chic et sobre sera l'élément au centre de vos rendez-vous.Vous pourrez la placer dans la pièce de votre choix.",
+      "prix": 90
+    },
+    {
+      "_id": "2",
+      "titre": "Service de table",
+      "type": "Service à table",
+      "etat": "Neuve",
+      "photo": "https://wishop.tn/wp-content/uploads/2019/05/wishop-promo-tunisie-service-de-table-26-pi%C3%A8ces-Poterie_1100.jpg",
+      "description": "Service de table 26 pièces poterie artisanale.",
+      "prix": 65
+    },
+    {
+      "_id": "3",
+      "titre": "Robe de mariage",
+      "type": "Vetement",
+      "etat": "Ancienne",
+      "photo": "https://lamarieeencolere.com/wp-content/uploads/2020/03/pronovias-offre-robe-de-mari%C3%A9e-soignantes-min.jpg",
+      "description": "Utilisé une seule fois lors du mariage du propriétaire taille S.",
+      "prix": 950
+    },
+    {
+      "_id": "4",
+      "titre": "Garde robe",
+      "type": "Meuble",
+      "etat": "Ancienne",
+      "photo": "https://www.easymeubles.fr/media/catalog/product/cache/8/image/9df78eab33525d08d6e5fb8d27136e95/0/1/01_2_3.jpg",
+      "description": "Fabriquée en bois de manguier solide, Ajoutez le luxe au design de milieu du siècle à votre décoration intérieure avec cette garde-robe élégante !",
+      "prix": 250
+    },
+    {
+      "_id": "5",
+      "titre": "Table à manger",
+      "type": "Meuble",
+      "etat": "Ancienne",
+      "photo": "https://media.paruvendu.fr/image/table-manger-ikea/WB16/1/9/WB161946993_1.jpeg",
+      "description": "Je vends cette belle table IKEA pour 4 personnes contenant des planches, qui en fait alors une table pour 6 personnes, solide et antique. Très très bon état (pratiquement neuf). longueur :100 cm et largeur : 100 cm",
+      "prix": 180
+    }
+  ]
+}
